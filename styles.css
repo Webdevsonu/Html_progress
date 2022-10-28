@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+}
+
+
+
+.keycontainer {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	border: 2px solid blue;
+	border-radius: 10px;
+	width: 280px;
+	justify-content: space-around;
+	padding: 20px 0;
+	grid-row-gap: 10px;
+	margin-left: 40%;
+	margin-top: 10px;
+	padding: 10px;
+	background: darkblue;
+	box-shadow: 1px 10px 20px 1px;
+}
+
+#resetbtn {
+ 	grid-column: 1 / span 3;
+ 	width: 200px;
+ }
+
+input {
+	border :2px solid blue;
+	border-radius: 10px;
+	width : 270px;
+	height: 50px;
+	padding:10px;
+	font-size: 40px;
+	margin-left: 30px;
+	background: DarkSeaGreen;
+	box-shadow: 1px 5px 10px 1px;
+	direction: rtl;
+}
+
+p {
+	margin-top: 10%;
+}
+
+button {
+	width: 60px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom-color: white;
+	border-right-color: white;
+}
+
+button:hover {
+	width: 60px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	background: darkblue;
+	border-top-color: white;
+	border-left-color: white;
+	border-bottom-color: black;
+	border-right-color: black;
+	color:white;
+}
